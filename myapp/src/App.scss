@@ -1,0 +1,7 @@
+@import './scss/color';
+@import './scss/bootstrap';
+@import './scss/hero';
+
+.hovernav:hover{
+    color: $primary !important;
+}

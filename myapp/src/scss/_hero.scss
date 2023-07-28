@@ -1,0 +1,115 @@
+.hero {
+  background-image: url("../assets/img/hero_pattern.jpg");
+  height: 100%;
+}
+.textSize {
+  font-size: 55px;
+}
+.mypic {
+  transform: translateX(-30);
+  z-index: -1 !important;
+  min-width: 227px;
+  max-width: 300px;
+}
+.borderpic {
+  left: -7%;
+  top: -7%;
+  max-width: 480px;
+  max-height: 450px;
+}
+.index {
+  z-index: 4 !important;
+}
+.plusposition {
+  left: 22px;
+}
+.hoverhire:hover {
+  color: $primary !important;
+  background-color: $white !important;
+}
+.hoverview:hover {
+  color: white !important;
+}
+.element1 {
+  top: 20%;
+  left: 33%;
+  animation: element1 infinite 4s linear;
+}
+.element2 {
+  top: 75%;
+  left: 5%;
+  animation: element2 infinite 4s linear;
+}
+.element3 {
+  top: 30%;
+  left: 5%;
+  animation: element3 infinite 4s linear;
+}
+.element4 {
+  top: 17%;
+  left: 63%;
+}
+.element5 {
+  top: 90%;
+  left: 43%;
+}
+.element6 {
+  top: 90%;
+  left: 90%;
+  animation: element6 infinite 4s linear;
+}
+.element7 {
+  top: 30%;
+  left: 93%;
+  animation: element3 infinite 4s linear;
+}
+
+@keyframes element1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes element2 {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes element3 {
+  0% {
+    transform: scale(0.2);
+  }
+
+  50% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(0.2);
+  }
+}
+@keyframes element6 {
+  0% {
+    transform: scale(0.7);
+  }
+
+  50% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
