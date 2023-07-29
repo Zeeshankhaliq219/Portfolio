@@ -1,0 +1,37 @@
+.aboutpic{
+   width: 87%;
+   height: 95%;
+}
+.aboutText{
+    position: relative;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+.aboutText::before{
+content: '';
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    width: 140px;
+    height: 4px;
+    background: $primary;
+    transform: translateX(-50%);
+}
+.aboutText::after{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: $primary;
+    transform: translateX(-50%);
+}
+.content-title{
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
