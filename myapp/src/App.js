@@ -1,6 +1,7 @@
 import './App.scss';
 import About from './components/About';
 import Hero from './components/Hero';
+import Skills from './components/Skills';
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <>
       <Hero />
       <About />
-      <h1 className="text-info">Hello World</h1>
+      <Skills />
     </>
   );
 }
