@@ -1,5 +1,6 @@
 import './App.scss';
 import About from './components/About';
+import Classpic from './components/Classpic';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Classpic />
     </>
   );
 }
