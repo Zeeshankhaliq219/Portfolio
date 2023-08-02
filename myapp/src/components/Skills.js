@@ -12,7 +12,7 @@ export default function Skills() {
 
   return (
     <>
-      <div className="container-fluid bg-secondary my-3">
+      <div className="container-fluid bg-secondary py-3">
         <div className="container">
           <div className="row">
             <div className="col-12">

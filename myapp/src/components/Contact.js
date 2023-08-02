@@ -3,11 +3,11 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <div className="container">
+      <div className="container py-5">
         <h1 className="text-center text-primary fw-bolder aboutText">
           Contact Me
         </h1>
-        <div className="row">
+        <div className="row my-4">
           <div className="col-12 col-md-5 mt-3">
             <div>
               <div className="row">

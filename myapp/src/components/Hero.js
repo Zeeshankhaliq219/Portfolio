@@ -51,10 +51,10 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="col-12 col-md-6 p-0 ms-lg-3 me-md-3">
-              <div className="row mt-5 mt-md-0 mx-auto">
-                <div className="col col-5">
-                  <div className="position-relative">
+            <div className="col-12 col-sm-6 p-0 ms-lg-2 me-md-3 d-flex d-md-block justify-content-center align-items-center">
+              <div className="row mt-5 mt-md-0 mx-auto d-flex">
+                <div className="col col-sm-5 position-relative">
+                  <div className="">
                     <img
                       className="position-absolute borderpic"
                       src={MYPICBORDER}
@@ -67,7 +67,7 @@ export default function Hero() {
                     />
                   </div>
                 </div>
-                <div className="col-12 col-md-7 p-0 position-relative">
+                <div className="col-12 col-sm-7 p-0 position-relative">
                   <div className="position-absolute plusposition">
                     <div className="row d-flex flex-column mt-5 mt-md-0 p-0 mx-auto">
                       <div className="col index mt-md-5 m-0 p-0">
