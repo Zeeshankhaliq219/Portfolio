@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
+import PorttfolioSection from './components/portfolioSection';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <PorttfolioSection />
       <Classpic />
       <Contact />
       <Footer />
