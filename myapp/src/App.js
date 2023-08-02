@@ -23,7 +23,7 @@ function App() {
       {loading ? (
         <Loading />
       ) : (
-        <>
+          <>
           <Hero />
           <About />
           <Skills />

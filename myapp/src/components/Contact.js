@@ -30,6 +30,20 @@ export default function Contact() {
                   <p className="p-0 m-0 fs-5">Internet</p>
                 </div>
               </div>
+              <div className="py-5">
+                <a target="_blank" href="https://twitter.com/zeeshankhaliq29">
+                  <i class="fa-brands fa-twitter text-primary fs-2 mx-3 ps-2"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/zeeshan-khaliq-front-end-developer/"
+                >
+                  <i class="fa-brands fa-linkedin text-primary fs-2 mx-3 ps-2"></i>
+                </a>
+                <a target="_blank" href="https://github.com/Zeeshankhaliq219">
+                  <i class="fa-brands fa-github text-primary fs-2 mx-3 ps-2"></i>
+                </a>
+              </div>
             </div>
           </div>
 

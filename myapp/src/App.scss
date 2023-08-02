@@ -15,3 +15,22 @@
 .toggleIcon:focus{
   box-shadow: none !important;
 }
+
+*{
+  scrollbar-width: thin;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $secondary;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $primary;
+  border-radius: 20px;
+  border: 2px solid white;
+}

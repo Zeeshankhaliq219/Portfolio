@@ -23,10 +23,10 @@ export default function About() {
             <h2 class="content-title">Hey There! I'm Zeeshan Khaliq</h2>
             <p className="fs-4">
               I'm a front end developer based in pakistan. I'm passionate about
-              building web applications and experimenting with new technologies.
+              building web applications and experimenting with new technologies. <br />
               In my spare time I like to play football, workout, reading and
               travelling. I'm always down for hearing about new projects, so
-              feel free to drop me a line. I hope you enjoy browsing my
+              feel free to drop me a line. <br /> I hope you enjoy browsing my
               portfolio, and I look forward to the opportunity to bring your
               next web development project to life. <br />
               <span className="text-primary fw-bolder">

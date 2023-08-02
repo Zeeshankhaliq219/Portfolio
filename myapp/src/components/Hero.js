@@ -39,14 +39,17 @@ export default function Hero() {
               </div>
               <div className="row">
                 <div className="col">
-                  <button className="fs-4 fw-bold hoverhire text-white bg-primary border-0 px-5 py-2 rounded-3">
+                  <a href="#contact" className="text-decoration-none d-inline-block fs-4 fw-bold hoverhire text-white bg-primary border-0 px-4 px-md-5 py-2 rounded-3">
                     HIRE ME
-                  </button>
+                  </a>
                 </div>
                 <div className="col d-flex align-items-center">
-                  <span className="fs-5 fw-bold hoverview text-primary  border-0 ">
+                  <a
+                    href="#Portfolio"
+                    className="fs-5 fw-bold text-decoration-none hoverview text-primary  border-0 "
+                  >
                     VIEW MY PORTFOLIO
-                  </span>
+                  </a>
                 </div>
               </div>
             </div>
