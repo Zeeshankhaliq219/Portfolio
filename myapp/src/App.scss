@@ -11,3 +11,6 @@
 .hovernav:hover{
     color: $primary !important;
 }
+.toggleIcon:focus{
+  box-shadow: none !important;
+}

@@ -5,7 +5,7 @@ import { ProjectData } from "../Data/ProjectData";
 export default function portfolioSection() {
   return (
     <>
-      <div className="container pt-4">
+      <div id="Portfolio" className="container pt-4">
         <h1 className="text-center text-primary fw-bolder aboutText">
           Portfolio
         </h1>

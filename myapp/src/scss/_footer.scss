@@ -3,3 +3,21 @@
   background-size: cover;
   background-position: center center;
 }
+
+.hometop{
+  margin-top: -30px !important;
+animation: element1 infinite 4s linear !important;
+}
+
+@keyframes element1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

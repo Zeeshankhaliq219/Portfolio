@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from '../assets/img/logo.png'
 
 export default function Header() {
+
+
+  const [toggle , settoggle] =useState(false)
+
     return (
       <>
         <div className="container">
@@ -12,21 +16,28 @@ export default function Header() {
                 <p className="fs-1 text-white">zkdev</p>
               </a>
               <button
-                className="navbar-toggler"
+                onClick={() => {
+                  settoggle(!toggle)
+                }}
+                className="navbar-toggler toggleIcon border-0"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNav"
                 aria-controls="navbarNav"
-                aria-expanded="false"
+                aria-expanded={toggle}
                 aria-label="Toggle navigation"
               >
-                <span className="navbar-toggler-icon"></span>
+                {toggle ? (
+                  <i class="fa-solid fa-xmark text-white fs-2 "></i>
+                ) : (
+                  <i class="fa-solid fa-bars text-white fs-2 "></i>
+                )}
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto ">
                   <li className="nav-item">
                     <a
-                      className="nav-link fw-bold fs-5 text-white hovernav"
+                      className="nav-link fw-bold fs-5 text-primary hovernav"
                       aria-current="page"
                       href="#"
                     >
@@ -36,7 +47,7 @@ export default function Header() {
                   <li className="nav-item">
                     <a
                       className="nav-link fw-bold fs-5 text-white hovernav"
-                      href="#"
+                      href="#About"
                     >
                       About
                     </a>
@@ -44,13 +55,16 @@ export default function Header() {
                   <li className="nav-item">
                     <a
                       className="nav-link fw-bold fs-5 text-white hovernav"
-                      href="#"
+                      href="#Portfolio"
                     >
                       Portfolio
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link fw-bold fs-5 text-white hovernav">
+                    <a
+                      className="nav-link fw-bold fs-5 text-white hovernav"
+                      href="#contact"
+                    >
                       Contact
                     </a>
                   </li>

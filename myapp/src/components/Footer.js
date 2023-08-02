@@ -5,7 +5,12 @@ export default function Footer() {
   let year = new Date().getFullYear();
   return (
     <>
-      <div className="container-fluid footerBG">
+      <div className="container-fluid footerBG position-relative">
+        <div className="top-0 position-absolute end-0 me-5 bg-primary p-3 rounded-3 hometop">
+          <a href="#">
+            <i className="fa-solid fa-arrow-up-from-bracket text-white fs-1"></i>
+          </a>
+        </div>
         <div className="container">
           <div className="row py-5">
             <div className="col d-flex flex-column justify-content-center align-items-center">

@@ -4,6 +4,7 @@ import MYPIC from "../assets/img/my_picAbout.jpg";
 export default function About() {
   return (
     <>
+      <span id="About"></span>
       <div className="py-5 my-5 d-sm-none"></div>
       <div className="py-5 my-5 d-sm-none"></div>
       <div className="container my-md-5">
